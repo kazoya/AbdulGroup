@@ -28,6 +28,11 @@ export const siteConfig = {
   hoursAr: "ساعات الدوام الداخلي غير منشورة على الموقع",
   addressAr: "الأردن",
   promiseAr: "عرض صنف شوكولاتة للتجزئة لا يُعتمد سعره إلا من المبيعات",
+  engine: "تجزئة",
+  gap: "الموقع أعاد 403 للفحص الآلي. نلتزم بالبطاقة والمجموعة دون اختراع كتالوج.",
+  industry: "شوكولاتة وتجارة صناعية",
+  hero: "التاجر يريد صنفاً يتحرك من الرف. المنصة تقترح تشكيلة وأنت تعتمد",
+  websiteHost: "abdulgroup.com",
   developer: { nameAr: "م. صهيب الصالح", phone: "962787523192", prefill: "AbdulGroup" },
 } as const;
 export function getDiscoveryFormUrl(): string { return readPublic("NEXT_PUBLIC_DISCOVERY_FORM_URL"); }
